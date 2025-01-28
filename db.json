@@ -2,90 +2,101 @@
     {
       "id": 1,
       "name": "Product 1",
+      "description": "Descripton of this amazing product",
       "price": 19.99,
       "rating": 1,
-      "image-1": "https://p.turbosquid.com/ts-thumb/Uu/wU2mtv/TN/z01.rgb_color.0005/jpg/1698253827/2560x1440/fit_q99/16ceea77f436114f707052235c23f80cca0fc5c1/z01.rgb_color.0005.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/Uu/wU2mtv/pX/z01.rgb_color.0030/jpg/1698253833/1920x1080/fit_q99/68db58b155b60b4e4514f80b4868051dfc58601c/z01.rgb_color.0030.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/Uu/wU2mtv/TN/z01.rgb_color.0005/jpg/1698253827/2560x1440/fit_q99/16ceea77f436114f707052235c23f80cca0fc5c1/z01.rgb_color.0005.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/Uu/wU2mtv/pX/z01.rgb_color.0030/jpg/1698253833/1920x1080/fit_q99/68db58b155b60b4e4514f80b4868051dfc58601c/z01.rgb_color.0030.jpg"
     },
     {
       "id": 2,
       "name": "Product 2",
+      "description": "Descripton of this amazing product",
       "price": 29.99,
       "rating": 2,
-      "image-1": "https://p.turbosquid.com/ts-thumb/m1/yBYK7o/Cv/0001/jpg/1643826984/1920x1080/fit_q99/26117116ef4f5684e8b182fb8360d07ec17562e4/0001.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/m1/yBYK7o/rR/0008/jpg/1643826985/1920x1080/fit_q99/7b82cea72d54daba82c6b149af16d9c35009c588/0008.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/m1/yBYK7o/Cv/0001/jpg/1643826984/1920x1080/fit_q99/26117116ef4f5684e8b182fb8360d07ec17562e4/0001.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/m1/yBYK7o/rR/0008/jpg/1643826985/1920x1080/fit_q99/7b82cea72d54daba82c6b149af16d9c35009c588/0008.jpg"
     },
     {
       "id": 3,
       "name": "Product 3",
+      "description": "Descripton of this amazing product",
       "price": 39.99,
       "rating": 3,
-      "image-1": "https://p.turbosquid.com/ts-thumb/g9/oGVE0f/03rxR6L3/r1/jpg/1517763587/2000x2000/fit_q99/76ba7bfb736d35d210b41c317dccb80ef2dccfd5/r1.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/g9/oGVE0f/7fqNLIUb/r4/jpg/1517763785/2000x2000/fit_q99/33ae6991e97b0b6d7157c0d999e83d189751f1a8/r4.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/g9/oGVE0f/03rxR6L3/r1/jpg/1517763587/2000x2000/fit_q99/76ba7bfb736d35d210b41c317dccb80ef2dccfd5/r1.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/g9/oGVE0f/7fqNLIUb/r4/jpg/1517763785/2000x2000/fit_q99/33ae6991e97b0b6d7157c0d999e83d189751f1a8/r4.jpg"
     },
     {
       "id": 4,
       "name": "Product 4",
+      "description": "Descripton of this amazing product",
       "price": 49.99,
       "rating": 4,
-      "image-1": "https://p.turbosquid.com/ts-thumb/uI/Clf7cQ/6y/clothing_workout_female_0003/jpg/1705499508/1920x1080/fit_q99/a36ba25967cf589c64a87ca50b1530fe8d3b4cdb/clothing_workout_female_0003.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/uI/Clf7cQ/9R/clothing_workout_female_0004/jpg/1705499508/1920x1080/fit_q99/cfe887a83772bb1d80f0e58545398a9413c95cba/clothing_workout_female_0004.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/uI/Clf7cQ/6y/clothing_workout_female_0003/jpg/1705499508/1920x1080/fit_q99/a36ba25967cf589c64a87ca50b1530fe8d3b4cdb/clothing_workout_female_0003.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/uI/Clf7cQ/9R/clothing_workout_female_0004/jpg/1705499508/1920x1080/fit_q99/cfe887a83772bb1d80f0e58545398a9413c95cba/clothing_workout_female_0004.jpg"
     },
     {
       "id": 5,
       "name": "Product 5",
+      "description": "Descripton of this amazing product",
       "price": 59.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/ef/IbU2xs/43X1nGey/_view07/jpg/1591297827/2500x1407/fit_q99/b89a75fa782a930198405a28a3da540008c621cc/_view07.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/ef/IbU2xs/9VENHd0L/_view110018/jpg/1591297827/2500x1407/fit_q99/dbbe56ed8391f1e90e5d5f9a0964d1bc1e72dfab/_view110018.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/ef/IbU2xs/43X1nGey/_view07/jpg/1591297827/2500x1407/fit_q99/b89a75fa782a930198405a28a3da540008c621cc/_view07.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/ef/IbU2xs/9VENHd0L/_view110018/jpg/1591297827/2500x1407/fit_q99/dbbe56ed8391f1e90e5d5f9a0964d1bc1e72dfab/_view110018.jpg"
     },
     {
       "id": 6,
       "name": "Product 6",
+      "description": "Descripton of this amazing product",
       "price": 69.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/ry/cCHIq2/zu/workout_clothing_0003/jpg/1704833745/1920x1080/fit_q99/6f6363c40f31476591daebece49f2103d92d5439/workout_clothing_0003.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/ry/cCHIq2/1D/workout_clothing_0004/jpg/1704833745/1920x1080/fit_q99/0b89fa756a30083d10f4585db25452b34bc59fcb/workout_clothing_0004.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/ry/cCHIq2/zu/workout_clothing_0003/jpg/1704833745/1920x1080/fit_q99/6f6363c40f31476591daebece49f2103d92d5439/workout_clothing_0003.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/ry/cCHIq2/1D/workout_clothing_0004/jpg/1704833745/1920x1080/fit_q99/0b89fa756a30083d10f4585db25452b34bc59fcb/workout_clothing_0004.jpg"
     },
     {
       "id": 7,
       "name": "Product 7",
+      "description": "Descripton of this amazing product",
       "price": 79.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/AK/Aitzo4/x1O4FoTh/signature/jpg/1531762180/4096x4096/fit_q99/6905dbcb0d479889d77242bb3a07e9d7cd4bb1ff/signature.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/AK/Aitzo4/FELL2cYu/45degree04/jpg/1531823473/4096x4096/fit_q99/17b081a73767bfb0c0ca4d98dbfddf12a6443e0e/45degree04.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/AK/Aitzo4/x1O4FoTh/signature/jpg/1531762180/4096x4096/fit_q99/6905dbcb0d479889d77242bb3a07e9d7cd4bb1ff/signature.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/AK/Aitzo4/FELL2cYu/45degree04/jpg/1531823473/4096x4096/fit_q99/17b081a73767bfb0c0ca4d98dbfddf12a6443e0e/45degree04.jpg"
     },
     {
       "id": 8,
       "name": "Product 8",
+      "description": "Descripton of this amazing product",
       "price": 89.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/pI/u5aQsO/bz/productshot1/png/1722617655/1920x1080/fit_q99/07509e0a4491bb47125352dfbe9fe80896c6e800/productshot1.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/pI/u5aQsO/7k/productshot3/png/1722617655/1920x1080/fit_q99/10644ed2a4dae6abae947cf516dd54eb3b2cee47/productshot3.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/pI/u5aQsO/bz/productshot1/png/1722617655/1920x1080/fit_q99/07509e0a4491bb47125352dfbe9fe80896c6e800/productshot1.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/pI/u5aQsO/7k/productshot3/png/1722617655/1920x1080/fit_q99/10644ed2a4dae6abae947cf516dd54eb3b2cee47/productshot3.jpg"
     },
     {
       "id": 9,
       "name": "Product 9",
+      "description": "Descripton of this amazing product",
       "price": 99.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/N9/xHNAkZ/xGPLTkLS/04/jpg/1585622319/1400x1400/fit_q99/38c979f3e9e342194de4f27c9263430863e64405/04.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/N9/xHNAkZ/C4M9bNgZ/05/jpg/1585622319/1400x1400/fit_q99/445925cfec9e97dad1f02090050212590ec0a278/05.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/N9/xHNAkZ/xGPLTkLS/04/jpg/1585622319/1400x1400/fit_q99/38c979f3e9e342194de4f27c9263430863e64405/04.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/N9/xHNAkZ/C4M9bNgZ/05/jpg/1585622319/1400x1400/fit_q99/445925cfec9e97dad1f02090050212590ec0a278/05.jpg"
     },
     {
       "id": 10,
       "name": "Product 10",
+      "description": "Descripton of this amazing product",
       "price": 109.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/HX/ABel2J/1J/angles_01/jpg/1717656838/1920x1080/fit_q99/b73e3488ae166aa4e59789b92a54bc3f33773761/angles_01.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/HX/ABel2J/jE/angles_02/jpg/1717656838/1920x1080/fit_q99/d0941e8557656847c9ba195f0abbba7e2a72dc12/angles_02.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/HX/ABel2J/1J/angles_01/jpg/1717656838/1920x1080/fit_q99/b73e3488ae166aa4e59789b92a54bc3f33773761/angles_01.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/HX/ABel2J/jE/angles_02/jpg/1717656838/1920x1080/fit_q99/d0941e8557656847c9ba195f0abbba7e2a72dc12/angles_02.jpg"
     },
     {
       "id": 11,
       "name": "Product 11",
+      "description": "Descripton of this amazing product",
       "price": 119.99,
       "rating": 5,
-      "image-1": "https://p.turbosquid.com/ts-thumb/rz/e9kzFo/XRdQDMJ1/basketball_shoes_thumbnail_0002/jpg/1584967824/2220x1200/fit_q99/3c25e6149cfcce7dfed7bce53dd4ab924e09eb38/basketball_shoes_thumbnail_0002.jpg",
-      "image-2": "https://p.turbosquid.com/ts-thumb/rz/e9kzFo/27NhVH3s/basketball_shoes_thumbnail_0003/jpg/1584967824/2220x1200/fit_q99/17e80d1897aed23307dd4ff6bce65e5f5c33d5b6/basketball_shoes_thumbnail_0003.jpg"
+      "image1": "https://p.turbosquid.com/ts-thumb/rz/e9kzFo/XRdQDMJ1/basketball_shoes_thumbnail_0002/jpg/1584967824/2220x1200/fit_q99/3c25e6149cfcce7dfed7bce53dd4ab924e09eb38/basketball_shoes_thumbnail_0002.jpg",
+      "image2": "https://p.turbosquid.com/ts-thumb/rz/e9kzFo/27NhVH3s/basketball_shoes_thumbnail_0003/jpg/1584967824/2220x1200/fit_q99/17e80d1897aed23307dd4ff6bce65e5f5c33d5b6/basketball_shoes_thumbnail_0003.jpg"
     }
   ]
 }
