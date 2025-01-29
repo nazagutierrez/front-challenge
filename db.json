@@ -55,7 +55,7 @@
     },
     {
       "id": 7,
-      "name": "Shoes pink",
+      "name": "Boots",
       "description": "Descripton of this amazing product",
       "price": 79.99,
       "rating": 3,
@@ -64,9 +64,9 @@
     },
     {
       "id": 8,
-      "name": "Boots",
+      "name": "Shoes pink",
       "description": "Descripton of this amazing product",
-      "price": 89.99,
+      "price": 89.20,
       "rating": 5,
       "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/bkdg24xdwxqeza9mrijf",
       "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/xngsdknxadczqbmw95lj"
@@ -97,6 +97,87 @@
       "rating": 2,
       "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/fr3ustg8bkjs2mfx5dhn",
       "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/yui6rfeohgsfcysgqnwm"
+    },
+    {
+      "id": 12,
+      "name": "Women rain coat",
+      "description": "Descripton of this amazing product",
+      "price": 230.50,
+      "rating": 3,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/x6wbogyv43atcouyuvso",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/nstocissqz5surrwrjhe"
+    },
+    {
+      "id": 13,
+      "name": "White air force",
+      "description": "Descripton of this amazing product",
+      "price": 139.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/rmvj4jwnchkptt6mvim5",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/avda7enknh6donbzir5y"
+    },
+    {
+      "id": 14,
+      "name": "White converse",
+      "description": "Descripton of this amazing product",
+      "price": 156.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/egzsso3yndrroc2rwsw2",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/t61smeb8omgone4xmlyy"
+    },
+    {
+      "id": 15,
+      "name": "Football shoes",
+      "description": "Descripton of this amazing product",
+      "price": 272.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/qtbjpoyc78hq63wg9aze",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/vk1ycqqd1loc1y7p2caq"
+    },
+    {
+      "id": 16,
+      "name": "Grey shoes",
+      "description": "Descripton of this amazing product",
+      "price": 399.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/f1wlrxwhmwfrxkebmjbs",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/xhbo6ztfdpyyepzhxhl6"
+    },
+    {
+      "id": 17,
+      "name": "Black shoes",
+      "description": "Descripton of this amazing product",
+      "price": 54.50,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/tnrrflrofsqec5tnnkk1",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/socaygflvnk6zb6dfxzd"
+    },
+    {
+      "id": 18,
+      "name": "Blue football shoes",
+      "description": "Descripton of this amazing product",
+      "price": 19.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/aikuzoho8cs7itekozwz",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/rodogefsz36lbatijru3"
+    },
+    {
+      "id": 19,
+      "name": "Black shoes man",
+      "description": "Descripton of this amazing product",
+      "price": 299.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/gda7onsgaf3dnbsgtyx7",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/xgeekkl59sdukwxrqjgn"
+    },
+    {
+      "id": 20,
+      "name": "Grey and green shoes",
+      "description": "Descripton of this amazing product",
+      "price": 399.99,
+      "rating": 5,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/xvncr47gboprfkwxnlkg",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/z98yo7mzivgmngckiu4x"
     }
   ]
 }
