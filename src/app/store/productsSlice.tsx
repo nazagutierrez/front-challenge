@@ -1,4 +1,3 @@
-// productsSlice.ts
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
 import { Product } from '../lib/types'; 
 
@@ -34,6 +33,7 @@ export const fetchProducts = createAsyncThunk(
       }
       const data: Product[] = await response.json();
       return data.slice(0, page * 10);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       return thunkAPI.rejectWithValue(error.message);
     }
@@ -62,7 +62,7 @@ const productsSlice = createSlice({
         return (
           product.name.includes(state.searchQuery) &&
           product.price >= state.priceFilter &&
-          (state.ratingFilter === 0 || product.rating >= state.ratingFilter)
+          (state.ratingFilter === 0 || product.rating === state.ratingFilter)
         );
       });
     },

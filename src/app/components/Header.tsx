@@ -6,6 +6,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { RxAvatar } from "react-icons/rx";
 import { AiFillDelete } from "react-icons/ai";
+import { RootState } from "@reduxjs/toolkit/query";
+import { Product } from "../lib/types";
 
 export default function Header() {
   const dispatch = useDispatch();
@@ -17,7 +19,7 @@ export default function Header() {
   useEffect(() => {
     const handleTotalPrices = () => {
       let totalPrices = 0;
-      productsPrices?.forEach((price) => {
+      productsPrices?.forEach((price: Product["price"]) => {
         totalPrices += price;
       });
       setTotalPrices(totalPrices);  

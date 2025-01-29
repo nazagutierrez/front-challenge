@@ -20,9 +20,9 @@ export default function AuthView() {
   }, [isLogin]);
 
   return (
-    <article className="flex min-h-screen">
-      <section className="w-1/2 hidden md:block bg-cover xl:shadow-[5px_0_40px_20px_rgba(0,0,0,0.2)] bg-center bg-[url('https://images.unsplash.com/photo-1516442443906-71605254b628?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
-        <div className="flex flex-col justify-center h-full p-8 text-white bg-black bg-opacity-55">
+    <article className="flex items-center min-h-screen">
+      <section className="w-1/2 hidden md:flex bg-cover">
+        <div className="flex flex-col justify-center mb-20 border-r border-primary-darker/30 h-full p-8 text-white bg-opacity-55">
           <h2 className="text-sm">Best items in the world.</h2>
           <h1 className="mt-2 text-5xl font-bold">EXCLUSIVE DESINGS</h1>
           <p className="mt-4">
@@ -42,9 +42,9 @@ export default function AuthView() {
               className="w-14 h-14 sm:w-20 sm:h-20 opacity-60"
             />
             <h2 className="sm:mt-4 text-lg sm:text-2xl font-bold">Store</h2>
-            <div className="flex flex-wrap justify-center sm:justify-start mt-4 gap-1 relative bg-main-black rounded-md px-2 py-1">
+            <div className="flex flex-wrap justify-center sm:justify-start mt-4 gap-1 relative bg-[#2c2c2c] rounded-md px-2 py-1">
               <div
-                className={`absolute hidden sm:block bg-cyan-700 z-10 h-10 pointer-events-auto rounded-md transition-all duration-300 ${
+                className={`absolute hidden sm:block bg-primary-darker/70 z-10 h-10 pointer-events-auto rounded-md transition-all duration-300 ${
                   isLogin 
                   ? "transform translate-x-0 w-[75px] underline sm:no-underline" 
                   : "transform translate-x-[80px] w-[100px] underline sm:no-underline"

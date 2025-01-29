@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import Image from "next/image";
@@ -5,14 +6,14 @@ import { ProductCard } from "./Product";
 import svg from "../../assets/spinner.svg";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../store/store"; // Ajusta la ruta de tu store
+import { RootState } from "../../store/store";
 import {
   fetchProducts,
   setPriceFilter,
   setRatingFilter,
   filterProducts,
   setSearchQuery,
-} from "../../store/productsSlice"; // Ajusta la ruta de tu slice
+} from "../../store/productsSlice";
 import { Product } from "@/app/lib/types";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiFillLike } from "react-icons/ai";
@@ -59,14 +60,14 @@ const ProductsList = () => {
     <div>
       <section className="h-full w-full flex flex-col justify-center">
         <div className="flex flex-col items-center justify-center px-4 mx-20 py-8 sm:px-6 sm:py-12">
-          <div className="text-xl w-[99vw] flex items-center justify-center font-semibold sm:text-3xl">
+          <div className="text-xl w-[95vw] flex items-center justify-center font-semibold sm:text-3xl">
             <div className="w-full sm:w-1/3 h-0.5 bg-primary-darker mx-5 rounded-full"></div>
             <h2 className="w-1/2 text-center text-main-text/90">
               ITEMS IN THE STORE
             </h2>
             <div className="w-full sm:w-1/3 h-0.5 bg-primary-darker mx-5 rounded-full"></div>
           </div>
-          <div className="w-full mt-16 flex flex-col items-center justify-center">
+          <div className="w-[95vw] px-5 sm:px-20 mt-16 flex flex-col items-center justify-center">
             <label className="relative mb-10 flex items-center justify-start">
               <i className="absolute ps-2 text-main-text/60 text-xl"><AiOutlineSearch /></i>
               <input
@@ -120,7 +121,7 @@ const ProductsList = () => {
               className="w-14 h-14"
             />
           )}
-          <ul className="w-full h-full grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-20">
+          <ul className="w-[98vw] px-6 md:px-16 lg:px-40 xl:px-52 h-full grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-20">
             {filteredProducts?.map((product: Product) => (
               <ProductCard key={product.id} {...product} />
             ))}
@@ -134,8 +135,8 @@ const ProductsList = () => {
             )}
               <button
                 onClick={handleLoadMore}
-                className={`${page === 2 && "hidden"} w-[120px] h-[45px] flex items-center justify-center mt-4 px-4 py-2 bg-[#1d1d1d] shadow-sm shadow-white/30 text-white rounded-md`}
-              >
+                className={`w-[120px] h-[45px] flex items-center justify-center mt-4 px-4 py-2 bg-[#1d1d1d] shadow-sm shadow-white/30 text-white rounded-md ${filteredProducts.length === 20 ? "hidden" : ""}`}
+                >
                 {loading ? <Image
                   width={100}
                   height={100}

@@ -1,4 +1,3 @@
-// productsSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { Product } from '../lib/types'; 
 
@@ -21,9 +20,6 @@ const cartSlice = createSlice({
     clearCartItems: (state) => {
         state.productsPrices = [];
     },
-    // cartAmount: (state, action: PayloadAction<string>) => {
-      // aa
-    // },
   },
 });
 
