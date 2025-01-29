@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <i className="absolute bottom-10 right-[50%] text-3xl text-main-text/90">
+      <i className="absolute animate-move-y bottom-10 right-[50%] text-3xl text-main-text/90">
         <AiOutlineArrowDown />
       </i>
     </header>
