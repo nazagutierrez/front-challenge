@@ -6,7 +6,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
 import { RxAvatar } from "react-icons/rx";
 import { AiFillDelete } from "react-icons/ai";
-import { RootState } from "@reduxjs/toolkit/query";
 import { Product } from "../lib/types";
 
 export default function Header() {
@@ -14,6 +13,7 @@ export default function Header() {
   const [totalPrices, setTotalPrices] = useState(0);
   
   const { productsPrices } = useSelector(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (state: any) => state.cart
   );
   useEffect(() => {
