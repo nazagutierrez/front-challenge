@@ -178,6 +178,15 @@
       "rating": 4,
       "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/xvncr47gboprfkwxnlkg",
       "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/z98yo7mzivgmngckiu4x"
-    }
+    },
+    {
+      "id": 21,
+      "name": "Green shoes",
+      "description": "Descripton of this amazing product",
+      "price": 84.50,
+      "rating": 2,
+      "image1": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/arbkn9g0egp1akui77jb",
+      "image2": "https://res.cloudinary.com/dfm1wyt2p/image/upload/f_auto,q_auto/uncv0oirotwl2vexhfzx"
+    },
   ]
 }
