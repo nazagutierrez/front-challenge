@@ -14,7 +14,7 @@ export default function Header() {
   const [totalPrices, setTotalPrices] = useState(0);
   
   const { productsPrices } = useSelector(
-    (state: RootState) => state.cart
+    (state: any) => state.cart
   );
   useEffect(() => {
     const handleTotalPrices = () => {
