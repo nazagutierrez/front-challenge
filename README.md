@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Challenge App
 
-## Getting Started
+This is a challenge app built for a **Frontend Developer** position.
+More detailed info in the web Hero section.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**, **Next.js**, and **TailwindCSS** used for fast development and a responsive layout.
+- **Redux** to manage the state of both the products and the shopping cart.
+- **Cloudinary** for product image storage.
+- **Responsive design** to deliver a seamless experience across different devices.
+- **Innovative and pleasant design**: A visually appealing overall design with focus on user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**, **Typescript**, **Next.js**, **TailwindCSS**, **Cloudinary**, **Redux** and **CSS**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nazagutierrez/front-challenge.git
+2. Navigate to the project directory:
+   ```bash
+   cd front-challenge
+4. Install the dependencies:
+   ```bash
+   npm install
+5. Run the app locally:
+   ```bash
+   npm run dev
+  > The app will be available at http://localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+  > The app is deployed at https://nazagutierrez.github.io/front-challenge
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+### **Nazareno Gutierrez**
